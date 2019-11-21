@@ -1,5 +1,6 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Untitled](untitled.md)
+* [Technology](untitled.md)
+* [Devices](devices.md)
 
