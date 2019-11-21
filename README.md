@@ -1,4 +1,4 @@
-# Initial page
+# Hacking guide
 
 ## Introduction
 

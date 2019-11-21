@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Hacking guide](README.md)
 * [Technology](untitled.md)
 * [Devices](devices.md)
 
