@@ -6,7 +6,7 @@ description: >-
 
 # Guide
 
-Try to determine different attack vectors for your product based on real life situation.
+
 
 ## Questions 
 
@@ -24,6 +24,7 @@ Try to determine different attack vectors for your product based on real life si
 * Hardware that is bought online from untrusted source might not be as advertised
 * Organize the attack as well as possible. Make a step-by-step plan, preliminary research and create an equal situation \(mocking\).
 * As soon as you start carrying out the attack, carefully consider which attack you are carrying out first. Starting with a DDoS is not the most convenient.
+* Try to determine different attack vectors based on real life situation.
 
 
 
