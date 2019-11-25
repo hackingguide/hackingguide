@@ -2,15 +2,13 @@
 
 ## Introduction
 
-{% page-ref page="guide.md" %}
+{% page-ref page="introduction/start.md" %}
 
 
 
 ## Researches
 
-{% page-ref page="technology.md" %}
-
-{% page-ref page="devices.md" %}
+{% page-ref page="devices-1/devices.md" %}
 
 
 
