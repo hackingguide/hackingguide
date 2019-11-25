@@ -2,6 +2,6 @@
 
 * [Hacking guide](README.md)
 * [Guide](guide.md)
-* [Technology](untitled.md)
+* [Technology](technology.md)
 * [Devices](devices.md)
 
