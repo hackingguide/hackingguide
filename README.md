@@ -2,6 +2,8 @@
 
 ## Introduction
 
+{% page-ref page="guide.md" %}
+
 
 
 ## Researches
