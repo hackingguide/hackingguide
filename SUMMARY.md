@@ -9,6 +9,7 @@
 ## Devices <a id="devices-1"></a>
 
 * [New device](devices-1/devices.md)
+* [Locker RFID](devices-1/locker-rfid.md)
 
 ## Technology <a id="technology-1"></a>
 
