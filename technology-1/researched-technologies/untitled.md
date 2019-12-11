@@ -19,9 +19,9 @@ description: >-
 
 ## Starting steps <a id="docs-internal-guid-c9c5e61f-7fff-b10a-03b0-279c76554e83"></a>
 
-1. Try to identify what for type of RFID tag are being used
+1. Try to identify what for type of RFID tags are being used
 2. See what type of attacks are possible for that RFID tag
-3. Does The reader support multiple type tag?
+3. Does The reader support multiple type of tags?
 4. Check if the reader only validate by using UID \(Unique IDentifier\) 
    1. If so it might be possible to only simulate UID to gain access
 
