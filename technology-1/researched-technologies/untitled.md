@@ -47,10 +47,10 @@ Proxmark is an RFID tool for interacting with different RFID tags.
 
 #### Different Proxmark devices
 
-* [Proxmark 3](https://proxmark.com/proxmark-3-hardware/proxmark-3)
+* [Proxmark ](https://proxmark.com/proxmark-3-hardware/proxmark-3)
+* [Proxmark 3 RDV 2](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv-2)
 * [Proxmark 3 RDV4](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv4)
 * [Proxmark 3 EVO](https://proxmark.com/proxmark-3-hardware/proxmark-3-evo)
-* [Proxmark 3 RDV 2](https://proxmark.com/proxmark-3-hardware/proxmark-3-rdv-2)
 * [Proxmark 3 Easy](https://proxmark.com/proxmark-3-hardware/proxmark-3-easy)
 
 #### Software

@@ -56,6 +56,7 @@ Steps for  a card cloning/Simulate attack using a proxmark.
 #### Tools used
 
 * Proxmark easy for read/write and simulate of RFID tags
+  * Software and firmware used from [proxmark3 GitHub](https://github.com/Proxmark/proxmark3)
 * RFID card 1 M1 S50 13,56 MHZ
 * RFID card 2 UID 13,56 MHZ \(clone card\)
 
