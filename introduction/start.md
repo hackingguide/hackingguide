@@ -6,7 +6,15 @@ description: >-
 
 # Starting off
 
+## General steps
 
+* Literature study of the technology/product
+* Usage of product
+* Prepare scenarios
+* Sort scenarios on real life situations
+* Prioritize scenarios \(First passive attacks, DDoS as last options\)
+* Work out the scenarios
+* Evaluate
 
 ## Questions 
 
