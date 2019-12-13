@@ -19,8 +19,7 @@ Card skimming by placing a reader next or on top of the existing reader. To do a
 
 A **Bruteforce attack** by trying multiple UID'S on a specific locker. This is not ideal because you have to press a button each time  before you can unlock it. So this is not realistic.
 
-**Dos attack** by rewriting sector 0 on users RFID cards. Only possible with writeable cards.  
-
+**Dos attack** by rewriting sector 0 on users RFID cards. Only possible with writeable cards.
 
 ### Steps
 
@@ -40,7 +39,7 @@ Steps for  a card cloning/Simulate attack using a proxmark.
 
    ![](../.gitbook/assets/afbeelding%20%286%29.png)
 
-3. Check default keys of Mifare classic card using **hf mf chk \*1 ? \(Go to step 9 for Simulate UID\)**![](../.gitbook/assets/afbeelding%20%285%29.png)  **** 
+3. Check default keys of Mifare classic card using **hf mf chk \*1 ? \(Go to step 9 for Simulate UID\)**                                                 ![](../.gitbook/assets/afbeelding%20%285%29.png)  **** 
 
 4. Dumping keys for each sector to dumpkeys.bin using command **hf mf nested 1 0 A ffffffffffff d**  
 
