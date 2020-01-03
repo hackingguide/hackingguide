@@ -7,8 +7,6 @@ description: >-
 
 # Fontys RFID access door
 
-
-
 ## Attack scenarios for RFID
 
 * Card cloning
@@ -91,6 +89,16 @@ Now it is a mifare desfire card it is possible to see more information using the
 Now we know that the fontys student pass is using NXP MIFARE DESFire EV1 cards. This card is very strong against card cloning since every data block can have there own authentication key.  
 
 Sniff and replay attack not possible since it is using AES encryption method. Each time the data of the card is read it using different authentication response. 
+
+### UID Simulation
+
+The card might be protected but when the reader would only check the UID\(unique identifier\) of the card. It would then still be possible to get access. This was tested by using the proxmark3 command: 
+
+**hf 14a sim t 3 u &lt;UID&gt;**
+
+The reader didn't show any response when holding the proxmark3 infront of the reader. When using a different reader we could see that the proxmark did simulate the correct UID. This shows us that the reader isn't checking the UID but different block of data in the card. 
+
+ 
 
 ## Possible attacks on Fontys 
 
