@@ -11,6 +11,7 @@
 * [New device](devices-1/devices.md)
 * [Fontys RFID access door](devices-1/fontys-rfid-access-door.md)
 * [Locker RFID](devices-1/locker-rfid.md)
+* [Entry gate](devices-1/entry-gate.md)
 
 ## Technology <a id="technology-1"></a>
 
