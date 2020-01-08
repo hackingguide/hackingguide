@@ -1,6 +1,6 @@
 ---
 description: >-
-  Radio-frequency identification (RFID) utilizes electromagnetic fields to
+  Radio-frequency identification (RFID) uses electromagnetic fields to
   automatically identify and track tags attached to objects.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ###  Possible attacks <a id="docs-internal-guid-3ff257f3-7fff-da25-d793-8eaf5bb546b7"></a>
 
-* Bruteforce RFID UID\(Unique Identifier\)
+* Bruteforce RFID UID\(Unique IDentifier\) 
 * Card cloning
 * Card Simulation
 * Permanently disabling tags
@@ -19,11 +19,11 @@ description: >-
 
 ## Starting steps <a id="docs-internal-guid-c9c5e61f-7fff-b10a-03b0-279c76554e83"></a>
 
-1. Try to identify what type of RFID tags are being used.
-2. See what type of attacks are possible for that specific RFID tag.
+1. Try to identify what for type of RFID tags are being used
+2. See what type of attacks are possible for that RFID tag
 3. Does The reader support multiple type of tags?
-4. Check if the reader only validates by using UID \(Unique Identifier\)
-   * If so it might be possible to only simulate UID to gain access.
+4. Check if the reader only validate by using UID \(Unique IDentifier\) 
+   1. If so it might be possible to only simulate UID to gain access
 
 ## Tags possible for cloning to <a id="docs-internal-guid-c9c5e61f-7fff-b10a-03b0-279c76554e83"></a>
 
@@ -31,10 +31,10 @@ description: >-
   * Gen1A UID write attack
 * **CUID**
   * Gen2 UID write attack
-  * Some ads say "write once", hinting that the card is not fused block0 from factory. I.e. supports one block0 change.
+  * Some ads says "write once" hinting that the card is not fused block0 from factory.  ie support one block0 change.
 * **FUID**
-  * Write Once card, it doesn't say if this is a genuine unfused card for factory or if it's a custom one.
-  * Used to counter the "anti-elevator" systems. Some posts on forums talk about “broken tags” after being used on elevators. 
+  * Write Once card, it doesn't say if this is a unfused genuine card for factory or if its a custom one.
+  * Used to counter the "anti-elevator" systems. Some posts on forum suggests broken tags after used on elevators. 
 * **UFUID**
   * Suggest one-time card, to counter the "anti-elevator" systems.
 
@@ -55,14 +55,14 @@ Proxmark is an RFID tool for interacting with different RFID tags.
 
 #### Software
 
-**​**[Proxmark3](https://github.com/Proxmark/proxmark3/wiki) is an open source project. Proxmark3 is the software you will need to interact with the proxmark. There is a lot of information available on how to install the software and flash your proxmark in order to update the firmware to a different version. The information on how to use the proxmark with different devices is on their[ wiki](https://github.com/Proxmark/proxmark3/wiki).
+[Proxmark3 ](https://github.com/Proxmark/proxmark3/wiki)is open source project. Proxmark3 is the software you will need to interact with proxmark. There is a lot of information on how to install the software and flash your proxmark to updated it to the firmware to a different version.  The information on how to use the proxmark  with different devices is on there [wiki](https://github.com/Proxmark/proxmark3/wiki). 
 
 #### Commands
 
 Basic card info commands:
 
-* HF search - High frequency card information
-* LF search - Low frequency card information
+* HF search - High frequestion card information
+* LF search - Low frequestion card information
 
 UID simulation commands:
 
