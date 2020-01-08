@@ -8,7 +8,7 @@ description: >-
 # Fontys RFID access door
 
 {% hint style="info" %}
-More information about RFID on the dedicated "Technology" page.
+[More information about RFID on the dedicated "Technology" page.](../technology-1/researched-technologies/untitled.md)
 {% endhint %}
 
 ## Attack scenarios for RFID

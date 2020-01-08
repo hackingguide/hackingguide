@@ -7,7 +7,7 @@ description: >-
 # Locker RFID
 
 {% hint style="info" %}
-More information about RFID on the dedicated "Technology" page.
+[More information about RFID on the dedicated "Technology" page.](../technology-1/researched-technologies/untitled.md)
 {% endhint %}
 
 ### Attack scenarios  <a id="docs-internal-guid-3ff257f3-7fff-da25-d793-8eaf5bb546b7"></a>
