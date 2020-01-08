@@ -11,7 +11,7 @@ description: >-
 [More information about RFID on the dedicated "Technology" page.](../technology-1/researched-technologies/untitled.md)
 {% endhint %}
 
-## Attack scenarios for RFID
+## Attack scenario's for RFID
 
 * Card cloning
 * Card read and simulate 
@@ -19,7 +19,7 @@ description: >-
 * Reader sniff
 * Relay Attack
 
-## Research Fontys RFID door
+## Research: Fontys RFID door
 
 First we researched what type of RFID card was being used. This was done by using a proxmark3. 
 
