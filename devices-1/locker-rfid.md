@@ -56,6 +56,12 @@ Steps for  a card cloning/Simulate attack using a proxmark.
 9. Simulate card 1 using command **hf 14a sim t 1 u 795f17ad** ![](../.gitbook/assets/afbeelding%20%281%29.png) 
 10. Use proxmark to open locker
 
+### DEMO
+
+{% embed url="https://drive.google.com/open?id=1ARkWg0eN\_rc2suxeIY9FSc--V38q1PVN" %}
+
+
+
 #### Tools used
 
 * Proxmark easy for read/write and simulate of RFID tags
