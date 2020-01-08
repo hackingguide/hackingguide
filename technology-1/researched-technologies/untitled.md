@@ -69,3 +69,11 @@ UID simulation commands:
 * hf mf sim u &lt;UID&gt; - Simulating mifare classic card 
 * hf 14a sim t &lt;type of card&gt; u &lt;UID&gt; - Simulating different ISO14443A RFID card 
 
+### Written guides using RFID
+
+{% page-ref page="../../devices-1/fontys-rfid-access-door.md" %}
+
+{% page-ref page="../../devices-1/locker-rfid.md" %}
+
+
+

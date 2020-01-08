@@ -7,6 +7,10 @@ description: >-
 
 # Fontys RFID access door
 
+{% hint style="info" %}
+More information about RFID on the dedicated "Technology" page.
+{% endhint %}
+
 ## Attack scenarios for RFID
 
 * Card cloning

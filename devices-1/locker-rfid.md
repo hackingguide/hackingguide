@@ -6,6 +6,10 @@ description: >-
 
 # Locker RFID
 
+{% hint style="info" %}
+More information about RFID on the dedicated "Technology" page.
+{% endhint %}
+
 ### Attack scenarios  <a id="docs-internal-guid-3ff257f3-7fff-da25-d793-8eaf5bb546b7"></a>
 
 * Bruteforce RFID UID 
