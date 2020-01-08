@@ -58,7 +58,7 @@ Steps for  a card cloning/Simulate attack using a proxmark.
 
 ### DEMO
 
-{% embed url="https://drive.google.com/open?id=1ARkWg0eN\_rc2suxeIY9FSc--V38q1PVN" %}
+{% embed url="https://drive.google.com/file/d/1ARkWg0eN\_rc2suxeIY9FSc--V38q1PVN/view" %}
 
 
 
