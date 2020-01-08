@@ -1,7 +1,7 @@
 ---
 description: >-
-  To access some location at Fontys you need to use a student or teacher card.
-  These cards are using RFID to see if you are allowed to gain access to the
+  To access some locations at Fontys you will need to use a student or teacher
+  card. These cards utilize RFID to validate if you are allowed access to the
   building.
 ---
 
@@ -11,7 +11,7 @@ description: >-
 [More information about RFID on the dedicated "Technology" page.](../technology-1/researched-technologies/untitled.md)
 {% endhint %}
 
-## Attack scenarios for RFID
+## Attack scenario's for RFID
 
 * Card cloning
 * Card read and simulate 
@@ -19,11 +19,11 @@ description: >-
 * Reader sniff
 * Relay Attack
 
-## Research Fontys RFID door
+## Research: Fontys RFID door
 
-First we researched what type of RFID card was being used. This was done using a proxmark3. 
+First we researched what type of RFID card was being used. This was done by using a proxmark3. 
 
-using command hf search on the proxmark3  we got the following information
+By using the command: **hf search** on the proxmark3  we got the following information:
 
 ```text
 [=] Checking for known tags...
@@ -45,7 +45,7 @@ MANUFACTURER : NXP Semiconductors Germany
 
 ```
 
-Now it is a mifare desfire card it is possible to see more information using the hf mfdes info command on the proxmark3:
+It turns out to be a mifare desfire card, it is possible to get more information by using the **hf mfdes info** command on the proxmark3:
 
 ```text
 -- Desfire Information --------------------------------------
@@ -90,17 +90,19 @@ Now it is a mifare desfire card it is possible to see more information using the
 
 ```
 
-Now we know that the fontys student pass is using NXP MIFARE DESFire EV1 cards. This card is very strong against card cloning since every data block can have there own authentication key.  
+Now we know that the Fontys student pass is using NXP MIFARE DESFire EV1 cards. This type of card is well protected against card cloning since every data block can have their own authentication key. 
 
-Sniff and replay attack not possible since it is using AES encryption method. Each time the data of the card is read it using different authentication response. 
+Sniff and replay attack will not be possible since it’s using AES encryption. Each time the data of the card is read it uses a different authentication response. 
+
+### 
 
 ### UID Simulation
 
-The card might be protected but when the reader would only check the UID\(unique identifier\) of the card. It would then still be possible to get access. This was tested by using the proxmark3 command: 
+The card might be protected but if the reader only checks the UID\(unique identifier\) of the card, it would still be possible to gain access. This was tested by using the following proxmark3 command:
 
 **hf 14a sim t 3 u &lt;UID&gt;**
 
-The reader didn't show any response when holding the proxmark3 infront of the reader. When using a different reader we could see that the proxmark did simulate the correct UID. This shows us that the reader isn't checking the UID but different block of data in the card. 
+The reader didn't give any response while holding the proxmark3 infront of it. When using a different reader we could see that the proxmark did in fact simulate the correct UID. This shows that the reader isn't checking the UID but instead a different block of data on the card.
 
  
 
@@ -111,11 +113,11 @@ The reader didn't show any response when holding the proxmark3 infront of the re
 
 ### Creating a custom DESfire card using public read keys
 
-Maybe it is possible to create our own Desfire card that is also using a free access key to read file 1 and 2. But when looking on the card there are 3 more applications stored that are not using the free access key in there authentication. Depending on where the door reader is looking for it might not be possible to to make a fake card for that door
+Maybe it is possible to create our own Desfire card that is also using a free access key to read file 1 and 2. But, when checking the card we see that there are 3 more applications stored that are not using the free access key in their authentication. Depending on what the door reader is looking for it might not be possible to create a fake card for that door.
 
 ### Relay Attack 
 
-Relay attack would contain 2 devices that have the possibility send the data from the reader to the card and back. From a distance where the attacker would need to get close to someone with student or teacher card. Then an other person would need to be at the reader holding the other end of the device against the reader and transferring the data from the student/teacher card from a bigger distance to open the door. This isn't tested.
+A relay attack would require two devices that have the possibility to send data from the reader to the card and back. It would need to be executed from a distance where the attacker could get close to someone thas has a valid card. Another person would then have to be at the reader holding the other end of the device against the reader and thus transferring the data from the victims card, from a distance to open the door. This hasn’t been tested yet.
 
 ###  <a id="docs-internal-guid-3776b3d6-7fff-117b-d08a-8c8032c2b5bf"></a>
 
