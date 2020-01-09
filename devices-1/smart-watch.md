@@ -42,7 +42,7 @@ description: We have researched the Garmin Forerunner 645 Music smart watch.
 
 ### Connections
 
-Ways to connect with the Garmin Forerunner 645 are:
+Connections with the Garmin Forerunner 645 are:
 
 * GPS
 * Bluetooth 
