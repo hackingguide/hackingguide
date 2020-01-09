@@ -18,6 +18,7 @@ description: We have researched the Garmin Forerunner 645 Music smart watch.
 * Take apart the smartwatch hardware and replace the components.
 * Inspect the files on the smartwatch \(Using debugger/decompiler\)
 * Intercept requests
+* Upload custom firmware/software
 
 ## Garmin Forerunner 645
 
@@ -48,6 +49,14 @@ Connections with the Garmin Forerunner 645 are:
 * Bluetooth 
 * WIFI
 * IQ features
+
+### Trusted devices 
+
+The Garmin Forerunner 645 Only connects by using WIFI, bluetooth and USB. 
+
+The Smartwatch has the possibility to connect phones and headphones with Bluetooth.
+
+The Smartwatch can be updated using the Garmin Express software on a PC.
 
 
 
