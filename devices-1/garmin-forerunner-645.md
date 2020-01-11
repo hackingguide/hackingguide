@@ -1,26 +1,4 @@
----
-description: We have researched the Garmin Forerunner 645 Music smart watch.
----
-
-# Smart watch
-
-## Steps
-
-1. Look at the version / specific model.
-2. Check what operating system is running on the watch.
-3. What are possible ways to connect.
-4. Check for current vulnerabilities in versions.
-5. Trusted devices \(Is there an automatic trusted connection between other devices\)
-
-## Attack scenario's 
-
-* Set it back to factory settings
-* Take apart the smartwatch hardware and replace the components.
-* Inspect the files on the smartwatch \(Using debugger/decompiler\)
-* Intercept requests
-* Upload custom firmware/software
-
-## Garmin Forerunner 645
+# Garmin Forerunner 645
 
 ### Device info
 
@@ -60,7 +38,25 @@ The Smartwatch can be updated using the Garmin Express software on a PC.
 
 
 
+### Attacks <a id="docs-internal-guid-11ef7b3f-7fff-cc3b-16da-a1f4308ed18c"></a>
 
+#### Factory reset 
+
+Factory reset could be used by criminals. This is useful for them when a smartwatch is stolen and they want to make a profit by selling the stolen device. When a factory reset is performed the devices can be setup again for a new user. Without seeing the data of a old user. 
+
+On the Garmin smartwatch it is possible to perform a factory reset without any authentication. If you follow the following steps you can do a factory reset on a garmin smartwatch.
+
+Resetting All Default Settings
+
+NOTE: This deletes all user-entered information and activity history. If you have set up a Garmin Pay wallet, restoring default settings also deletes the wallet from your device.You can reset all of the device settings to the factory default 
+
+1. From the watch face, hold UP.
+2. Select Settings &gt; System &gt; Reset.
+3. Select an option:
+   * To reset all of the device settings to the factory default values and save all activity information and stored music, select Reset Default Settings.
+   * To delete all activities from your history, select Delete All Activities.
+   * To reset all distance and time totals, select Reset Totals.
+   * To reset the all of the device settings to the factory default values and delete all activity information and stored music, select Delete Data and Reset Setting
 
 
 
