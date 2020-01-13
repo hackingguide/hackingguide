@@ -143,7 +143,7 @@ Altering data without the consent of the service provider would be unethical thu
 
 #### Cloning
 
-We've tried to clone the card onto a blank pass. Unfortunately we overlooked the part where this is a pass with 7 bytes of data, this killed our blank pass and left us without resources to further look into cloning. It could be very well be possible if the right blank card is used.
+We've tried to clone the card onto a blank pass. Unfortunately we overlooked the part where this is a card with 7 bytes of data, this killed our blank pass and left us without resources to further look into cloning. It could be very well be possible if the right blank card is used.
 
 #### Simulating using Proxmark3
 
