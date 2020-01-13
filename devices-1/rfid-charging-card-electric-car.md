@@ -5,7 +5,7 @@ description: This post is about a specific charging card to unlock car charging 
 # RFID Charging card electric car
 
 {% hint style="warning" %}
-This page is still undercontruction
+This page is still under contruction and could use more information regarding the cloning and use of charging cards.
 {% endhint %}
 
 {% hint style="info" %}
