@@ -81,5 +81,7 @@ UID simulation commands:
 
 {% page-ref page="../../devices-1/locker-rfid.md" %}
 
+{% page-ref page="../../devices-1/rfid-charging-card-electric-car.md" %}
+
 
 
