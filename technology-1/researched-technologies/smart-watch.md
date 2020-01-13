@@ -4,10 +4,6 @@ description: We have researched the Garmin Forerunner 645 Music smart watch.
 
 # Smart watch
 
-## Introduction
-
-A smartwatch is a wearable computer in the form of a wristwatch. Modern smartwatches use a touchscreen interface and are connected with a smartphone. Smartwatches have a lot of different feature from sending messages to monitoring heartbeat.
-
 ## Steps
 
 1. Look at the version / specific model.

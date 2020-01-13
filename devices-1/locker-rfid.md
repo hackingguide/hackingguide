@@ -43,18 +43,20 @@ Steps for  a card cloning/Simulate attack using a proxmark.
 
    ![](../.gitbook/assets/afbeelding%20%286%29.png)
 
-3. Check default keys of Mifare classic card using the command **hf mf chk \*1 ?** \(Go to step 9 for Simulate UID\).                                                 ****![](../.gitbook/assets/afbeelding%20%285%29.png)  **** 
+3. Check default keys of Mifare classic card using the command **hf mf chk \*1 ?** \(Go to step 9 for Simulate UID\).                                                 ****  **** 
 
-4. Dumping keys for each sector to dumpkeys.bin using command **hf mf nested 1 0 A ffffffffffff d**  
+![](../.gitbook/assets/afbeelding%20%285%29.png)
+
+1. Dumping keys for each sector to dumpkeys.bin using command **hf mf nested 1 0 A ffffffffffff d**  
 
    \*\*\*\*![](../.gitbook/assets/afbeelding%20%282%29.png)\*\*\*\*
 
-5. Create dump file with the command **hf mf dump**   ![](../.gitbook/assets/afbeelding%20%2812%29.png)
-6. Get card 2 change UID with the command **hf mf csetuid 795f17ad** ![](../.gitbook/assets/afbeelding%20%287%29.png) 
-7. Restore data of card 1 to card 2 using command **hf mf restore 1**  ![](../.gitbook/assets/afbeelding%20%283%29.png) 
-8. Use card 2 to open locker.
-9. Simulate card 1 using the command **hf 14a sim t 1 u 795f17ad** ![](../.gitbook/assets/afbeelding%20%281%29.png) 
-10. Use the proxmark to open locker
+2. Create dump file with the command **hf mf dump**   ![](../.gitbook/assets/afbeelding%20%2812%29.png)
+3. Get card 2 change UID with the command **hf mf csetuid 795f17ad** ![](../.gitbook/assets/afbeelding%20%287%29.png) 
+4. Restore data of card 1 to card 2 using command **hf mf restore 1**  ![](../.gitbook/assets/afbeelding%20%283%29.png) 
+5. Use card 2 to open locker.
+6. Simulate card 1 using the command **hf 14a sim t 1 u 795f17ad** ![](../.gitbook/assets/afbeelding%20%281%29.png) 
+7. Use the proxmark to open locker
 
 ### DEMO
 
