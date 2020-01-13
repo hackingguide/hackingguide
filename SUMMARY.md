@@ -12,6 +12,7 @@
 * [Locker RFID](devices-1/locker-rfid.md)
 * [Electronic entrance gate](devices-1/entry-gate.md)
 * [Garmin Forerunner 645](devices-1/garmin-forerunner-645.md)
+* [RFID Charging card electric car](devices-1/rfid-charging-card-electric-car.md)
 
 ## Technology <a id="technology-1"></a>
 
