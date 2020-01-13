@@ -1,6 +1,12 @@
 # Garmin Forerunner 645
 
+{% hint style="info" %}
+[More information about Smartwatches  on the dedicated "Technology" page.](../technology-1/researched-technologies/smart-watch.md)
+{% endhint %}
+
 ### Device info
+
+Garmin Forerunner 645 software version 3.11 
 
 #### Specifications
 
