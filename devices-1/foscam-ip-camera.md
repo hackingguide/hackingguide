@@ -67,7 +67,7 @@ Ofcourse, there is no HTTPS available. Lets utilize wireshark and see if we can 
 
 Now, when we submit a login request, we will be able to see the entire http request. By using the 'find packet' option, we can look for certain keywords in the packet bytes.
 
-![](../.gitbook/assets/2%20%281%29.png)
+![](../.gitbook/assets/2.png)
 
 The keyword 'username' gets found in a packet with the Push flag \(PSH, ACK\). When following the TCP stream we can see our request quite clearly.
 
