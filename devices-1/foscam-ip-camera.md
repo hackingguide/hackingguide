@@ -1,5 +1,5 @@
 ---
-description: This post is about a vulnerability research of a Foscam PT-series IP-camera.
+description: This post is about the vulnerability research of a Foscam PT-series IP-camera.
 ---
 
 # Foscam IP-camera
