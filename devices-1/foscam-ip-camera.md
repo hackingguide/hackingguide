@@ -154,13 +154,28 @@ After attempting a lot of different parameters, we can conclude that issueing co
 
 ## CVE
 
-Soon to be added.
+Over the years, researchers have found numerous vulnerabilities in foscam cameras. 
+
+![](../.gitbook/assets/cve.png)
+
+For this research, a few have been tested. Luckily for the consumer, it seems like all of these flaws have been patched. After the rise of IOT threats, it looks like foscam decided to put more time into the security aspect of their development cycle. As you can see in the picture, there haven't been any new vulnerabilities since 2018. This doesn't mean that there aren't any but it shows that foscam actually cares about the security of their products by rolling out frequent updates and security patches. 
+
+**Tested vulnerabilities** 
+
+* CVE-2018-6830 - Arbitrary File Deletion Vulnerability
+* CVE-2018-6832 - Stack-based Buffer Overflow Vulnerability
+* CVE-2018-6831 - Shell Command Injection Vulnerability
+* CVE-2018-19067 - There is a hardcoded Ak47@99 password for the factory~ account.
+* CGIProxy request DOS - Custom attack
 
 
 
-## Attacking scenarios
+## Other possible attacks
 
-Soon to be added.
+* Hard reset - there is a reset button on the bottom of the device. After reboot, settings will be cleared and a possible attacker could sign in with default credentials. 
+* MITM phishing attack - an attacker could fool the router and owner of the camera into thinking that his malicious device is the IP-camera which hosts the web client. By taking out the javascript files an attacker would be able to read the content of the authentication packet in clear text.
+* Injecting javascript using MITM proxy - an attacker could inject malicious javascript which could capture authentication credentials and/or other data.
+* Backdoor via firmware downgrade - an attacker could potentially create a backdoor on the device by first gaining access, followed by downgrading the firmware to a vulnerable version which could result into exploitation. 
 
 
 
